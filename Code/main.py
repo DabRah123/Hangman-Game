@@ -1,8 +1,8 @@
 import random
-from wods import world_list
+from word import word_list
 from art import stages
 lives = 0
-chosen_word = random.choice(world_list)
+chosen_word = random.choice(word_list)
 print(chosen_word)
 
 empty_string = ""
